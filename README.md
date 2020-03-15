@@ -45,6 +45,7 @@ JSON format:
 			"__v": 0
 		}
 	]
+	}
 	```
 - You can add an additional product to the catalogue by sending a **POST** request to `http://localhost:3000/rest/v1/products`
 JSON format:
