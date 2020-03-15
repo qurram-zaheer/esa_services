@@ -29,7 +29,7 @@ JSON format:
 
  ```json
  {
-  [
+  
    {
     "productId": 0,
     "_id": "5e68afc6bbbf4767ea13c72b",
@@ -51,7 +51,7 @@ JSON format:
     "availableQuantity": 500,
     "__v": 0
    }
-  ]
+  
  }
  ```
 
@@ -73,7 +73,7 @@ JSON format:
 
  ```json
  {
-  "productId": your_productId
+  "productId": "your_productId"
  }
  ```
 
