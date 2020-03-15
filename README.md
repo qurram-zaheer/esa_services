@@ -30,7 +30,7 @@ JSON format:
  ```json
  {
   
-   {
+   [{
     "productId": 0,
     "_id": "5e68afc6bbbf4767ea13c72b",
     "category": "laptop",
@@ -50,7 +50,7 @@ JSON format:
     "price": 699,
     "availableQuantity": 500,
     "__v": 0
-   }
+   }]
   
  }
  ```
