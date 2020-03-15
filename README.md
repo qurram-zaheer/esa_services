@@ -4,7 +4,7 @@
 
 - Clone and run <https://github.com/qurram-zaheer/esa_cart_api> . While cart_api is running, you should see in the logs
 
- > Server is listening on port 5000
+  > Server is listening on port 5000
 
 - Clone this repository, and navigate into it.
 - Run ``npm install``  to initialize the package.json dependancies.
