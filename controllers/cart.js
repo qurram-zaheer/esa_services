@@ -34,10 +34,13 @@ module.exports = app => {
 
     app.get("/rest/v1/users/:uname/cart", (req, res) => {
         let username = req.params.uname;
-        axios.get(`http://localhost:5000/check/${username}`).then(response => {
-            axios
-                .get(`http://localhost:5000/${username}/cart`)
-                .then(cartData => res.json(cartData.data));
-        });
+        axios
+            .get(`http://localhost:5000/check/${username}`)
+            .then(response => {
+                axios
+                    .get(`http://localhost:5000/${username}/cart`)
+                    .then(cartData => res.json(cartData.data));
+            })
+            .catch(err => res.json(err));
     });
 };
