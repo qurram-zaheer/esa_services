@@ -1,5 +1,5 @@
 ﻿
-## Cart microservice for ESA assignment 2
+## Cart microservice for ESA Assignment 2
 
 ### Starting the service
 1. Clone and run https://github.com/qurram-zaheer/esa_cart_api . While cart_api is running, you should see in the logs
