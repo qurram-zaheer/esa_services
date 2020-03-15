@@ -1,17 +1,16 @@
-﻿
-## Cart microservice for ESA Assignment 2
+﻿# Cart microservice for ESA Assignment 2
 
-### Starting the service
+## Starting the service
 
-1. Clone and run https://github.com/qurram-zaheer/esa_cart_api . While cart_api is running, you should see in the logs
+- Clone and run <https://github.com/qurram-zaheer/esa_cart_api> . While cart_api is running, you should see in the logs
 
  > Server is listening on port 5000
 
-2. Clone this repository, and navigate into it.
-3. Run ``npm install``  to initialize the package.json dependancies.
-4. Run ``npm start``.
+- Clone this repository, and navigate into it.
+- Run ``npm install``  to initialize the package.json dependancies.
+- Run ``npm start``.
 
-### Usage
+## Usage
 
 This is an emulation of a product microservice built on top of a RESTful cart_api service. A step-by-step walkthrough of the entire service is given below.
 
@@ -41,6 +40,7 @@ JSON format:
     "availableQuantity": 30,
     "__v": 0
    },
+
    {
     "productId": 1,
     "_id": "5e68b8de9fa1086e28a5854a",
@@ -80,7 +80,7 @@ JSON format:
 - You can view a users current cart by sending a **GET** request to `http://localhost:3000/rest/v1/users/*{your_username}*/cart`
 You will get a response with each cart item and its quantities mapped by the productId.
 
- >**NOTE:** The response from the get request consists of two JSONs, the first JSON will contain details about each of the products in the cart, and the second JSON will contain the productId of each of the products in the cart and their respective quantities. 
+ >**NOTE:** The response from the get request consists of two JSONs, the first JSON will contain details about each of the products in the cart, and the second JSON will contain the productId of each of the products in the cart and their respective quantities.
 
  You will get a response that looks like this:
 
@@ -97,6 +97,7 @@ You will get a response with each cart item and its quantities mapped by the pro
     "availableQuantity": 3,
     "__v": 0
    },
+
    {
     "productId": 1,
     "_id": "5e68b8de9fa1086e28a5854a",
@@ -108,12 +109,14 @@ You will get a response with each cart item and its quantities mapped by the pro
     "__v": 0
    }
   ],
+
   "quantities": [
    {
     "qty": 13,
     "_id": "5e6dbff6f2cbd2c3797de9cf",
     "productId": 0
    },
+
    {
     "qty": 2,
     "_id": "5e6dc1cb878a55c525c67da0",
